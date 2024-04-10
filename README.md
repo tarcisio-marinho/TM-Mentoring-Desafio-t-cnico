@@ -1,4 +1,4 @@
-# Instruções para o Projeto de Monitoramento de Preços
+# Projeto de WebScrapping de composição de alimentos
 
 Este documento contém as diretrizes e requisitos para o desenvolvimento de uma ferramenta de monitoramento de preços com web scraping e interface de usuário. O projeto deve ser desenvolvido utilizando a linguagem C# e seguir as especificações listadas abaixo.
 
@@ -16,19 +16,17 @@ Este documento contém as diretrizes e requisitos para o desenvolvimento de uma 
 
 #### Extração de Dados
 
-- Desenvolver uma funcionalidade que extraia periodicamente informações de produtos de uma página de e-commerce: nome, preço, avaliação média dos usuários e URL do produto.
+- Desenvolver uma funcionalidade que extraia informações de alimentos: Código, Nome, Nome Cientifico, Grupo, Componente, Unidades, Valor por 100g, Desvio padrão, Valor mínimo, Valor máximo, Numero de dados utilizados, Referencias e Tipo de dados.
+- Link: https://www.tbca.net.br/base-dados/composicao_estatistica.php?pagina=1&atuald=1#
 
 #### Armazenamento de Dados
 
-- Os dados extraídos devem ser armazenados em um banco de dados, incluindo um histórico de preços.
-
-#### Atualização Periódica
-
-- Implementar a re-execução automática do processo de web scraping em intervalos regulares.
+- Os dados extraídos devem ser armazenados em um banco de dados. A escolha do banco de dados e a estrutura de tabelas ou arquivos, fica por sua parte.
 
 ### Interface de Usuário
 
-- Desenvolver uma interface que permita aos usuários visualizar os produtos e os seus preços.
+- Desenvolver uma interface que permita aos usuários visualizar os alimentos e suas composições.
+- Busca por nome do alimento
 
 ## Orientações Gerais
 
