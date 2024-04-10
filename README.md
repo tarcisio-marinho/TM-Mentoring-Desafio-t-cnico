@@ -1,32 +1,53 @@
-# TM Mentoring Desafio técnico
+# Instruções para o Projeto de Monitoramento de Preços
 
-## Descrição do Projeto: Desenvolvimento de API de Gerenciamento de Livraria
+Este documento contém as diretrizes e requisitos para o desenvolvimento de uma ferramenta de monitoramento de preços com web scraping e interface de usuário. O projeto deve ser desenvolvido utilizando a linguagem C# e seguir as especificações listadas abaixo.
 
-### Visão Geral:
+## Requisitos Técnicos
 
-O objetivo deste projeto é desenvolver uma API RESTful para gerenciar uma livraria virtual. A API permitirá que os usuários realizem operações básicas de CRUD (Criar, Ler, Atualizar, Deletar) em um catálogo de livros. Cada livro terá informações como título, autor, ISBN, e quantidade em estoque.
+### Ambiente de Desenvolvimento
 
-### Tecnologias e Ferramentas:
-Linguagem de Programação: C#
+- *Linguagem:* C#
+- *Framework:* Utilizar .NET Core, .NET 5 ou .NET 6.
+- *Web Scraping:* Escolher entre Html Agility Pack e AngleSharp para a extração de dados.
+- *Banco de Dados:* Você decide qual banco de dados vai utilizar.
+- *Interface de Usuário:* A tecnologia para desenvolvimento da interface é de escolha do entrevistado.
 
-Banco de Dados: Qualquer banco de dados a sua escolha
+### Funcionalidades
 
+#### Extração de Dados
 
-### Funcionalidades:
-- Criação de Livro: A API deve permitir o cadastro de novos livros no sistema.
-Campos: Título, Autor, Descrição, ISBN, Quantidade em Estoque
-- Listagem de Livros: A API deve fornecer uma lista de todos os livros cadastrados, com a opção de filtrar por autor ou título.
-- Detalhes do Livro: A API deve permitir a consulta de detalhes de um livro específico por meio de seu ID.
-- Atualização de Livro: A API deve permitir a atualização dos dados de um livro específico.
-- Exclusão de Livro: A API deve permitir a remoção de um livro do catálogo.
+- Desenvolver uma funcionalidade que extraia periodicamente informações de produtos de uma página de e-commerce: nome, preço, avaliação média dos usuários e URL do produto.
 
-### Como entregar o projeto:
-Após o término do projeto, coloque o código em um repositório no github e envie a URL do github para o email: tarcisiomarinho10@gmail.com
+#### Armazenamento de Dados
 
-### Dicas: 
+- Os dados extraídos devem ser armazenados em um banco de dados, incluindo um histórico de preços.
 
-Não utilize o ChatGPT para fazer o projeto por você.
+#### Atualização Periódica
 
-Crie um Readme explicando como você fez o projeto e explique o motivo de cada decisão que você tomou. 
+- Implementar a re-execução automática do processo de web scraping em intervalos regulares.
 
-Implementação de testes unitários é um plus.
+### Interface de Usuário
+
+- Desenvolver uma interface que permita aos usuários visualizar os produtos e os seus preços.
+
+## Orientações Gerais
+
+- Priorize a clareza e manutenibilidade do código.
+- Documente adequadamente todas as funcionalidades implementadas.
+- Utilize padrões de design e boas práticas de programação.
+
+## Entrega do Projeto
+
+- O projeto deve ser entregue em um repositório Git, contendo o código fonte, arquivos de configuração necessários e uma documentação detalhada do projeto.
+- Inclua um arquivo README.md com uma visão geral do projeto, instruções de instalação e uso, e uma descrição das tecnologias e técnicas utilizadas.
+
+## Avaliação
+
+O projeto será avaliado com base em:
+
+- Funcionalidade: Todas as funcionalidades requisitadas devem estar implementadas e funcionando corretamente.
+- Qualidade do Código: Organização, legibilidade e aderência a boas práticas.
+- Documentação: Clareza e completude tanto no código quanto na documentação fornecida.
+- Inovação e Uso da Tecnologia: Eficiência na escolha e uso das tecnologias e na solução de problemas.
+
+Boa sorte e estamos ansiosos para ver sua solução!
