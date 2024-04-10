@@ -1,6 +1,7 @@
 # Projeto de WebScrapping de composição de alimentos
 
 Este documento contém as diretrizes e requisitos para o desenvolvimento de uma ferramenta de monitoramento de preços com web scraping e interface de usuário. O projeto deve ser desenvolvido utilizando a linguagem C# e seguir as especificações listadas abaixo.
+- Link: https://www.tbca.net.br/base-dados/composicao_estatistica.php?pagina=1&atuald=1#
 
 ## Requisitos Técnicos
 
@@ -16,8 +17,10 @@ Este documento contém as diretrizes e requisitos para o desenvolvimento de uma 
 
 #### Extração de Dados
 
-- Desenvolver uma funcionalidade que extraia informações de alimentos: Código, Nome, Nome Cientifico, Grupo, Componente, Unidades, Valor por 100g, Desvio padrão, Valor mínimo, Valor máximo, Numero de dados utilizados, Referencias e Tipo de dados.
-- Link: https://www.tbca.net.br/base-dados/composicao_estatistica.php?pagina=1&atuald=1#
+- Desenvolver uma funcionalidade que extraia informações de alimentos: Código, Nome, Nome Cientifico, Grupo, e todos os Componentes:
+
+<img width="282" alt="image" src="https://github.com/tarcisio-marinho/TM-Mentoring-Desafio-tecnico/assets/21285247/479f7a5e-5e0d-4088-bb39-b96474739ff4">
+
 
 #### Armazenamento de Dados
 
