@@ -11,7 +11,6 @@ Este documento contém as diretrizes e requisitos para o desenvolvimento de uma 
 - *Framework:* Utilizar .NET Core, .NET 5 ou .NET 6.
 - *Web Scraping:* Escolher entre Html Agility Pack e AngleSharp para a extração de dados.
 - *Banco de Dados:* Você decide qual banco de dados vai utilizar.
-- *Interface de Usuário:* A tecnologia para desenvolvimento da interface é de escolha do entrevistado.
 
 ### Funcionalidades
 
@@ -25,11 +24,6 @@ Este documento contém as diretrizes e requisitos para o desenvolvimento de uma 
 #### Armazenamento de Dados
 
 - Os dados extraídos devem ser armazenados em um banco de dados. A escolha do banco de dados e a estrutura de tabelas ou arquivos, fica por sua parte.
-
-### Interface de Usuário
-
-- Desenvolver uma interface que permita aos usuários visualizar os alimentos e suas composições.
-- Busca por nome do alimento
 
 ## Orientações Gerais
 
