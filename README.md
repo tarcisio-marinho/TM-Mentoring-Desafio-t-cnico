@@ -45,4 +45,10 @@ O projeto será avaliado com base em:
 - Documentação: Clareza e completude tanto no código quanto na documentação fornecida.
 - Inovação e Uso da Tecnologia: Eficiência na escolha e uso das tecnologias e na solução de problemas.
 
+## Diferenciais
+
+Será um diferencial para esse projeto a implementação de testes unitários e containerização da aplicação (utilizando docker).
+
+
+
 Boa sorte e estamos ansiosos para ver sua solução!
