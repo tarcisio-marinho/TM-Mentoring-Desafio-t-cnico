@@ -7,10 +7,11 @@ Este documento contém as diretrizes e requisitos para o desenvolvimento de uma 
 
 ### Ambiente de Desenvolvimento
 
-- *Linguagem:* C#
-- *Framework:* Utilizar .NET Core, .NET 5 ou .NET 6.
+- *Linguagem Backend:* C#
+- *Framework Backend:* Utilizar .NET Core, .NET 5 ou .NET 6.
 - *Web Scraping:* Escolher entre Html Agility Pack e AngleSharp para a extração de dados.
 - *Banco de Dados:* Você decide qual banco de dados vai utilizar.
+- *Frontend:* ReactJS
 
 ### Funcionalidades
 
@@ -25,6 +26,11 @@ Este documento contém as diretrizes e requisitos para o desenvolvimento de uma 
 
 - Os dados extraídos devem ser armazenados em um banco de dados. A escolha do banco de dados e a estrutura de tabelas ou arquivos, fica por sua parte.
 
+### Interface de Usuário
+- Desenvolver uma interface em ReactJS que permita aos usuários:
+- visualizar os alimentos e suas composições.
+- Buscar por nome do alimento
+  
 ## Orientações Gerais
 
 - Priorize a clareza e manutenibilidade do código.
